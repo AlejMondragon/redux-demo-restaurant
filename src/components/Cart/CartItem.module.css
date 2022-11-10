@@ -1,0 +1,44 @@
+.cart-item {
+  padding: 9px;
+  margin: 6px;
+  color: white;
+  background-color: rgb(103, 3, 28);
+  border-radius: 5px;
+}
+
+.cart-item h3 {
+  display: inline-block;
+  margin-left: .5rem;
+}
+
+.cart-item p {
+  display: inline-block;
+  margin: 0 1rem;
+  padding-right: 6px;
+}
+
+.quantity-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.quantity-details .quantity {
+  margin-left: .5rem;
+  font-size: 1.2rem;
+}
+
+.quantity-buttons {
+  margin-right: 1rem;
+}
+
+.quantity-buttons button {
+  padding: 0;
+  margin: 3px;
+  width: 2rem;
+  height: 2rem;
+  font-weight: bolder;
+  font-size: large;
+  text-align: center;
+}
+

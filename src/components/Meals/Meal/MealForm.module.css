@@ -1,0 +1,33 @@
+.form {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+}
+
+.form button {
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  background-color: rgb(126, 5, 35);
+  color: white;
+  padding: 0.25rem 2rem;
+  border-radius: 0;
+  font-weight: bold;
+}
+
+.form button:hover,
+.form button:active {
+  background-color: rgb(103, 3, 28);
+}
+
+@media screen and (max-width: 480px) {
+  .form {
+    flex-direction: row;
+    width: 80vw;
+    justify-content: right;
+  }
+
+  .form button {
+    margin-left: 24px;
+  }
+}

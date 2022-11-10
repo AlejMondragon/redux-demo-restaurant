@@ -1,0 +1,40 @@
+.checkout {
+  margin: 6rem 2rem;
+}
+
+.checkout div {
+  margin: 2rem 0;
+}
+
+h1 {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+form {
+  align-items: center;
+}
+
+input {
+  display: block;
+  margin:  1rem auto;
+  padding: 0 1rem;
+  width: 50%;
+  height: 3rem;
+  font-size: large;
+}
+
+.buttons {
+  margin: auto;
+  text-align: center;
+}
+
+.buttons button {
+  margin: 0.5rem;
+  padding: 1rem 2rem;
+  font-weight: bold;
+}
+
+.cart-items {
+  padding: 0;
+}

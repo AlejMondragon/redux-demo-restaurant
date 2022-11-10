@@ -1,0 +1,33 @@
+.cart-items {
+  list-style: none;
+  padding: 0;
+}
+
+.cart-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cart-footer h3 {
+  margin-right: 12px;
+}
+
+.buttons {
+  display: flex;
+}
+
+button {
+  padding: .9rem 1rem;
+  margin-right: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(191, 191, 4);
+  font-weight: bold;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgb(158, 158, 5);
+}
