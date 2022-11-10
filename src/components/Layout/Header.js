@@ -55,7 +55,7 @@ const Header = (props) => {
           <span className={classes["mobile-nav-button__bar"]}></span>
         </button>
         <h1>
-          <a href="#">Tradicional</a>
+          <NavLink to="/">Tradicional</NavLink>
         </h1>
         <nav className={classes["desktop-nav-menu"]}>
         {navMenu}

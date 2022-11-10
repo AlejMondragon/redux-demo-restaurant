@@ -1,13 +1,11 @@
 import { Route, Routes } from "react-router-dom";
 import React, { useState, Suspense } from "react";
 
-// PAGES IMPORTS
 import Header from "./components/Layout/Header";
 import Meals from "./components/Meals/Meals";
 import Cart from "./components/Cart/Cart";
 import Menu from "./components/pages/Menu";
 import Checkout from "./components/pages/Checkout";
-// lazy loading a page that is not so often used, so our page start faster at first
 const ContactUs = React.lazy(() => import("./components/pages/ContactUs"));
 
 const App = () => {

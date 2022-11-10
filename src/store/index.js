@@ -13,7 +13,6 @@ const persistConfig = {
 const persistedCartReducer = persistReducer(persistConfig, cartReducer)
 
 const store = configureStore({
-  // reducers (slices)
   reducer: {
     meals: mealsReducer,
     cart: persistedCartReducer

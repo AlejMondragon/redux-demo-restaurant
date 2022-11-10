@@ -6,6 +6,12 @@
   border-radius: 5px;
 }
 
+.checkout {
+  height: 150px;
+  width: 40%;
+  min-width: 300px;
+}
+
 .cart-item h3 {
   display: inline-block;
   margin-left: .5rem;
@@ -18,6 +24,7 @@
 }
 
 .quantity-details {
+  margin: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;

@@ -20,7 +20,7 @@ const CartItem = (props) => {
   }
 
   return (
-    <li className={classes["cart-item"]}>
+    <li className={`${classes['cart-item']} ${props.component ? classes[props.component] : ''}`}>
       <h3>{props.name}</h3>
       <p>/${props.price}</p>
       <div className={classes["quantity-details"]}>
