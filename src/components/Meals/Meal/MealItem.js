@@ -20,7 +20,7 @@ const MealItem = (props) => {
       <div className={classes.meal}>
         <h3 className={classes.name}>{props.name}</h3>
         <p className={classes.description}>{props.description}</p>
-        <h4 className={classes.price}>{props.price}</h4>
+        <h4 className={classes.price}>${props.price}</h4>
       </div>
       <div>
         <MealForm id={props.id} onAddItem={addItemHandler} />
